@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUSFitnessClub</title>
+    <link 
+    rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+    crossorigin="anonymous">
+</head>
+
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    ul{ list-style: none; }
+
+    .slick-slide{
+      overflow: hidden;
+    }
+
+    .carousel-container{
+      width: 100%;
+        height: 370px;
+        margin: 20px auto;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 12px 12px 12px #404040;
+        /* border: 5px solid black; */
+    }
+
+    .slick-track{
+      width: 20000px;
+      display: flex;
+      transition: 0.1s;
+      transform: translateX(-584px);
+    }
+
+    .slick-dots{
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      margin: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .slick-dots li{ margin: 0px 7px; }
+    .slick-dots button{
+      border: none;
+        border-radius: 50%;
+        background: #c3a7a7;
+        color: #c3a7a7;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+        outline: none;
+        font-size: 0px;
+        transition: 0.25s;
+    }
+
+    .slick-arrow{
+      position: absolute;
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: #ffecec;
+        top:45%;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        font-size: 25px;
+        color: #211616;
+        z-index: 20;
+    }
+    .slick-next{
+      right: 7px;
+    }
+    .slick-prev{
+      left: 7px;
+    }
+    .slick-active button{
+      background: red;
+    }
+
+    .container{
+        margin: auto;
+        width: 80%;
+    }
+    header{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 12px 12px 12px #404040;
+        text-align: center;
+    }
+    #carouselExampleIndicators{
+        width: 50%;
+        
+    }
+    .menu{
+        background-color: rgb(109, 192, 109);
+        border-top: 3px solid;
+        border-bottom: 3px solid;
+        text-align: center;
+        margin: 15px 0;
+        box-shadow: 12px 12px 12px #404040;
+        border-radius: 10px;
+        font-size: 1.25em;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .menu a{
+        color: aliceblue;
+        padding: 10px;
+    }
+    .content{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 12px 12px 12px #404040;
+        padding: 20px;
+    }
+    footer{
+        text-align: center;
+        font-size: 0.7em;
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/logo.png" alt="">
+        </header>
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="classes.html">Classes</a>
+            <a href="nutrition.html">Nutrition</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+    <div class="carousel-container">
+      <a class="slick-arrow slick-prev">
+        <i class="fas fa-angle-left"></i>
+      </a>
+      <div class="slick-list">
+        <div class="slick-track">
+          <div id="lastClone" class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 700px;">
+            <div>
+              <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
+                <img class="image" src="./img/6492552a2b453df40fe096bb_647962d96c53595014196ae1_newmarket-hero-new.jpeg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 700px;">
+            <div>
+              <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
+                <img class="image" src="./img/cardio_room.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 700px;">
+            <div>
+              <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
+                <img class="image" src="./img/gian-may-cardio-voi-may-chay-bo-rt500.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 700px;">
+            <div>
+              <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
+                <img class="image" src="./img/healthclub_traaning-og-faciliteter_fitness_topslider1920x1080_01.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 800px;">
+            <div>
+              <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
+                <img class="image" src="./img/istockphoto-1049740142-612x612.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 700px;">
+            <div>
+              <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
+                <img class="image" src="./img/strong-man-training-gym-scaled.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div id="firstClone" class="slick-slide slick-cloned" data-index="1" tabindex="-1" aria-hidden="true" style="width: 700px;">
+            <div>
+              <a href="" aria-label="" tabindex="-1" style="width: 100%; display: inline-block">
+                <img class="image" src="./img/training.ipg.webp" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="slick-arrow slick-next">
+        <i class="fas fa-angle-right"></i>
+      </a>
+      <ul class="slick-dots">
+        <li class="slick-active">
+          <button>1</button>
+        </li>
+        <li class="">
+          <button>2</button>
+        </li>
+        <li class="">
+          <button>3</button>
+        </li>
+        <li class="">
+          <button>4</button>
+        </li>
+        <li class="">
+          <button>5</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+        <p>
+        Welcome to VUS Fitness Club.
+        Our mission is to help clients meet their fitness and nutrition goals.
+    </p>
+    <p>
+        If you have struggled with getting healthy and need the motivation and recources to make a healthy liestyle change,
+        contact us today. Our facility includes state-of-the-art equipment, convenient group training classes, 
+        and nutrition tips and infomation to keep you healthy.
+    </p>
+    <p>
+        We provide a FREE, one-week membership to experience the benefits of you equipment and facility.
+        This one-week trial gives you complete access to our equipment, training classes, and nutrition planning. 
+        Contact us today to star your free trial!
+        </p>
+    </div>
+    <footer>
+            <p>&copy; copyright 2021. All Rights Reserved</p>
+            <a href="mailto:vusfitness@club.com">vusfitness@club.com</a>
+    </footer>
+    </div>
+    <script src="./slideshow.js"></script>
+</body>
+</html>
